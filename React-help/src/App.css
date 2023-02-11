@@ -1,0 +1,44 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+
+main{
+  max-height: 100vh;
+  max-width: 100vw;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  width: 500px;
+  height: 600px;
+  background-color: aqua;
+  float: left;
+  margin-right: 20%;
+}
+
+
+.right{
+  width: 500px;
+  height: 600px;
+  background-color: aqua;
+  float: right;
+}
+
+li{
+  list-style: none;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.PatternTitle{
+  background-color: bisque;
+  height: 100px;
+}
